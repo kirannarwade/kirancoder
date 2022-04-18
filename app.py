@@ -14,7 +14,7 @@ def about():
 def projects():
     return render_template("projects.html")
 
-@app.route("/projects/ecommerce")
+@app.route("/projects/Fully+Ecommerce+Website+(Flipkart+Clone)")
 def ecommerce():
     return render_template("ecommerce.html")
 
